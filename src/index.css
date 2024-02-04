@@ -9,3 +9,11 @@ html, body {
 .html::-webkit-scrollbar, .body::-webkit-scrollbar {
     display: none;  /* Safari and Chrome */
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}
